@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etch-a-Sketch</title>
+        <link type="text/css" rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class = "heading">
+            <h1>My Etch-a-sketch</h1>
+        </div>
+        
+        <div id="colorContainer" class="colorinputs">
+            <input type="radio" id="blackchoice" value="color"name="black" class="defaultbtn">
+            <label for="defaultcolor">Black</label>
+            <input type="radio" id="randomgen" class="hey">
+            <label for="randomchoice">Rainbow</label>
+            
+        </div>    
+
+        <div id="changeGrid"> 
+            <button id="clear" class="btn">clear</button>
+            
+        </div>
+    
+        
+        <div id="mainGrid"></div>
+
+    
+
+        <script src="app.js"></script>
+    </body>
+</html>
